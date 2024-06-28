@@ -13,9 +13,14 @@ alias tasks='grep "\- ( )" * -r'
 alias night='redshift -PO 2500'
 alias showtime='termdown -zs --no-figlet'
 alias showtimes='termdown -z --nofiglet'
+alias sc='hyprshot -m region --clipboard-only'
+alias russianroulette='sudo pacman -Syu'
+
 alias pingmyserver='ping 192.168.178.33'
 alias sshmyserver='ssh ubuntu@192.168.178.33'
-alias sc='hyprshot -m region --clipboard-only'
+alias pingmypi='ping 192.168.178.64'
+alias sshmypi='ssh pi@192.168.178.64'
+
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
